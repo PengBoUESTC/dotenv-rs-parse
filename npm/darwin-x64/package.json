@@ -1,0 +1,30 @@
+{
+  "name": "dotenv-rs-parse-darwin-x64",
+  "version": "1.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "dotenv-rs-parse.darwin-x64.node",
+  "files": [
+    "dotenv-rs-parse.darwin-x64.node"
+  ],
+  "description": "dotenv-rs-parse",
+  "keywords": [
+    "napi-rs",
+    "dotenv",
+    "dotenv-rs-parse",
+    "Rust",
+    "node-addon"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}

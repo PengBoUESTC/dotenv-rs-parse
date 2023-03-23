@@ -1,0 +1,22 @@
+{
+  "name": "dotenv-rs-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "napi build --platform --release",
+    "prepublishOnly": "napi prepublish -t npm",
+    "build:debug": "napi build",
+    "move": "node scripts/move"
+  },
+  "napi": {
+    "name": "dotenv-rs-parse"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^2.14.8"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

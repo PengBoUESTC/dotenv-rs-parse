@@ -1,0 +1,20 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      '@napi-rs/cli': ^2.14.8
+    devDependencies:
+      '@napi-rs/cli': 2.15.2
+
+  npm/darwin-x64:
+    specifiers: {}
+
+packages:
+
+  /@napi-rs/cli/2.15.2:
+    resolution: {integrity: sha512-80tBCtCnEhAmFtB9oPM0FL74uW7fAmtpeqjvERH7Q1z/aZzCAs/iNfE7U3ehpwg9Q07Ob2Eh/+1guyCdX/p24w==}
+    engines: {node: '>= 10'}
+    hasBin: true
+    dev: true
