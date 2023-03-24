@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "napi build --platform --release",
+    "build": "napi build --platform --release --dts=index.d.ts --target=x86_64-pc-windows-msvc",
     "prepublishOnly": "napi prepublish -t npm",
     "build:debug": "napi build",
     "move": "node scripts/move"
@@ -14,9 +14,16 @@
     "name": "dotenv-rs-parse"
   },
   "devDependencies": {
-    "@napi-rs/cli": "^2.14.8"
+    "@napi-rs/cli": "^2.14.8",
+    "execa": "^5.1.0",
+    "prompts": "^2.4.2"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "pengbo",
+  "license": "ISC",
+  "optionalDependencies": {
+    "dotenv-rs-parse-darwin-x64": "1.0.0",
+    "dotenv-rs-parse-linux-x64-gnu": "1.0.0",
+    "dotenv-rs-parse-win32-x64-msvc": "1.0.0"
+  }
 }

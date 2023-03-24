@@ -1,0 +1,30 @@
+{
+  "name": "dotenv-rs-parse-win32-x64-msvc",
+  "version": "1.0.0",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "dotenv-rs-parse.win32-x64-msvc.node",
+  "files": [
+    "dotenv-rs-parse.win32-x64-msvc.node"
+  ],
+  "description": "dotenv-rs-parse",
+  "keywords": [
+    "napi-rs",
+    "dotenv",
+    "dotenv-rs-parse",
+    "Rust",
+    "node-addon"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
