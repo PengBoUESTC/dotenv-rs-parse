@@ -110,7 +110,7 @@ jobs:
         shell: bash
       - name: Publish
         run: |
-          if git log -1 --pretty=%B | grep "^publish:+";
+          if git log -1 --pretty=%B | grep "^publish:";
           then
             npm publishs
           else
