@@ -8,7 +8,8 @@
     "build": "napi build --platform --release --dts=index.d.ts",
     "prepublishOnly": "napi prepublish -t npm",
     "build:debug": "napi build",
-    "move": "node scripts/move"
+    "move": "node scripts/move",
+    "artifacts": "napi artifacts"
   },
   "napi": {
     "name": "dotenv-rs-parse"
