@@ -112,7 +112,7 @@ jobs:
         run: |
           if git log -1 --pretty=%B | grep "^publish:";
           then
-            npm publishs
+            npm publish
           else
             echo "Not a release, skipping publish"
           fi
