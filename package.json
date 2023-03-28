@@ -1,6 +1,6 @@
 {
   "name": "dotenv-rs-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "types": "index.d.ts",
@@ -10,8 +10,7 @@
     "build:debug": "napi build",
     "move": "node scripts/move",
     "artifacts": "napi artifacts",
-    "version": "napi version",
-    "release": "npm run version && npm run prepublishOnly"
+    "version": "napi version"
   },
   "napi": {
     "name": "dotenv-rs-parse"
@@ -25,8 +24,8 @@
   "author": "pengbo",
   "license": "ISC",
   "optionalDependencies": {
+    "dotenv-rs-parse-win32-x64-msvc": "1.0.0",
     "dotenv-rs-parse-darwin-x64": "1.0.0",
-    "dotenv-rs-parse-linux-x64-gnu": "1.0.0",
-    "dotenv-rs-parse-win32-x64-msvc": "1.0.0"
+    "dotenv-rs-parse-linux-x64-gnu": "1.0.0"
   }
 }
