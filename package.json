@@ -9,7 +9,9 @@
     "prepublishOnly": "napi prepublish -t npm",
     "build:debug": "napi build",
     "move": "node scripts/move",
-    "artifacts": "napi artifacts"
+    "artifacts": "napi artifacts",
+    "version": "napi version",
+    "release": "npm run version && npm run prepublishOnly"
   },
   "napi": {
     "name": "dotenv-rs-parse"
