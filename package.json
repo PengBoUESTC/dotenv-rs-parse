@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "build": "napi build --platform --release --dts=index.d.ts --target=x86_64-pc-windows-msvc",
+    "build": "napi build --platform --release --dts=index.d.ts",
     "prepublishOnly": "napi prepublish -t npm",
     "build:debug": "napi build",
     "move": "node scripts/move"
