@@ -13,6 +13,7 @@ let nativeBinding = null
 let localFileExisted = false
 let loadError = null
 
+/* c8 ignore start */
 function isMusl() {
   // For Node 10
   if (!process.report || typeof process.report.getReport !== 'function') {
@@ -251,6 +252,7 @@ if (!nativeBinding) {
   }
   throw new Error(`Failed to load native binding`)
 }
+/* c8 ignore stop */
 
 const { dotParseBase, getEnv, dotParse } = nativeBinding
 

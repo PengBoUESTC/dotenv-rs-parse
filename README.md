@@ -1,3 +1,6 @@
+<img src="https://img.shields.io/npm/v/dotenv-rs-parse?color=c95f8b"/>
+<img src="https://img.shields.io/nycrc/PengBoUESTC/dotenv-rs-parse"/>
+
 ## dotenv-rs-parse
 
 parse dotenv file by `rust`, supproted platforms: `darwin-x64`, `linux-x64-gnu`, `win32-x64-msvc`
